@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Maldhouwi</string>
+    <string name="title_activity_layout">LayoutActivity</string>
+    <string name="title_activity_intent">intentActivity</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+    <string name="title_activity_dog">DogActivity</string>
+    <string name="title_activity_first_screen">FirstScreenActivity</string>
+    <string name="title_activity_spplash_screen">SpplashScreenActivity</string>
+    <string name="title_activity_screen">ScreenActivity</string>
+    <string name="title_activity_product_assignment">ProductAssignmentActivity</string>
+    <string name="title_activity_cart_assignment">CartAssignmentActivity</string>
+    <string name="title_activity_pay_assignment">PayAssignmentActivity</string>
+    <string name="title_activity_chair">ChairActivity</string>
+</resources>
