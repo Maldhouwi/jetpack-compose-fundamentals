@@ -14,4 +14,6 @@
     <string name="title_activity_cart_assignment">CartAssignmentActivity</string>
     <string name="title_activity_pay_assignment">PayAssignmentActivity</string>
     <string name="title_activity_chair">ChairActivity</string>
+    <string name="title_activity_add_employee">AddEmployeeActivity</string>
+    <string name="title_activity_employee">EmployeeActivity</string>
 </resources>

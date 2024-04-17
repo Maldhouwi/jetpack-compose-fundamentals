@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Maldhouwi"
         tools:targetApi="31">
         <activity
+            android:name=".EmployeeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_employee"
+            android:theme="@style/Theme.Maldhouwi" />
+        <activity
+            android:name=".AddEmployeeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_employee"
+            android:theme="@style/Theme.Maldhouwi" />
+        <activity
             android:name=".ChairActivity"
             android:exported="false"
             android:label="@string/title_activity_chair"

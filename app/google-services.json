@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652571986139",
+    "project_id": "maldhouwi-aa048",
+    "storage_bucket": "maldhouwi-aa048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652571986139:android:fccf45c1da6cba748be4fe",
+        "android_client_info": {
+          "package_name": "com.example.maldhouwi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-8cREtza5-8HCm5NizoZzl71Q-RGOnaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

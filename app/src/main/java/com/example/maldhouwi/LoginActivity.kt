@@ -1,5 +1,6 @@
 package com.example.maldhouwi
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -31,6 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -60,6 +62,7 @@ fun Login(){
             )
             .fillMaxSize())
     {
+        val mContext = LocalContext.current
         var username by remember { mutableStateOf("") }
         var password by remember { mutableStateOf("") }
 
@@ -116,6 +119,17 @@ fun Login(){
         Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
             Button(onClick =
             { /*TODO*/ },
+                colors = ButtonDefaults.buttonColors(Color.Black))
+            {
+                Text(text = "LOG IN")
+            }
+        }
+
+        Spacer(modifier = Modifier.height(30.dp))
+
+        Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+            Button(onClick =
+            {  mContext.startActivity(Intent(mContext,AddEmployeeActivity::class.java))},
                 colors = ButtonDefaults.buttonColors(Color.Black))
             {
                 Text(text = "LOG IN")

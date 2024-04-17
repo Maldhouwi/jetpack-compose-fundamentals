@@ -70,8 +70,8 @@ fun Destination(){
         val mContext = LocalContext.current
 
         //TopAppBar
-        TopAppBar(title = { Text(text = "Destination", color = Color.White) },
-            colors = TopAppBarDefaults.mediumTopAppBarColors(Color.Red),
+        TopAppBar(title = { /*TODO*/},
+            colors = TopAppBarDefaults.mediumTopAppBarColors(Color.Transparent),
             navigationIcon = {
                 IconButton(onClick = { /*TODO*/ }) {
                     Icon(imageVector = Icons.Default.Menu,
@@ -318,7 +318,7 @@ fun Destination(){
 
 
 
-
+TopAppBar(title = { /*TODO*/ })
 
 
 
