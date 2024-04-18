@@ -53,6 +53,14 @@ class AddEmployeeActivity : ComponentActivity() {
 }
 
 
+/* The Following tabs are the ones needed to push and retrieve data from the database
+* 1. Add Employee Activity- used to allow admin to add names of employees
+* 2. Employee Activity - used to allow viewing of the  database info  on your phone
+* 3. Employee dataclass - allows for pushing of information to the database
+* 4.Employees dataclass allows for retrieval of data pushed to the database
+* the database in firebase is the one named maldhouwi*/
+
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
